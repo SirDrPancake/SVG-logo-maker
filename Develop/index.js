@@ -44,3 +44,5 @@ function generateLogo(answers) {
     console.log('Generated logo.svg');
   });
 }
+
+inquirer.prompt(questions).then(generateLogo);
