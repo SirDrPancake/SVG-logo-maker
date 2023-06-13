@@ -13,6 +13,20 @@ const questions = [
       return true;
     }
   },
-  
+  {
+    type: 'input',
+    name: 'textColor',
+    message: 'Enter the text color:'
+  },
+  {
+    type: 'list',
+    name: 'shape',
+    message: 'Choose a shape:',
+    choices: ['circle', 'triangle', 'square']
+  },
+  {
+    type: 'input',
+    name: 'shapeColor',
+    message: 'Enter the shape color:'
+  }
 ];
-
